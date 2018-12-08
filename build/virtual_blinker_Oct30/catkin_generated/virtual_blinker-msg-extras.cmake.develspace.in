@@ -1,0 +1,2 @@
+set(virtual_blinker_MESSAGE_FILES "/home/lu/catkin_ws/src/virtual_blinker_Oct30/msg/CarState.msg;/home/lu/catkin_ws/src/virtual_blinker_Oct30/msg/Position.msg;/home/lu/catkin_ws/src/virtual_blinker_Oct30/msg/Path.msg")
+set(virtual_blinker_SERVICE_FILES "")

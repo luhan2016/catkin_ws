@@ -1,0 +1,2 @@
+virtual_blinker
+-DCATKIN_DEVEL_PREFIX=/home/lu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lu/catkin_ws/install -G Unix Makefiles

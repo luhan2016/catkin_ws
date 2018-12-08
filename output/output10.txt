@@ -1,0 +1,221 @@
+diff 0.109910011292
+udp thread: binding to ('127.0.0.1', 9000)
+initiating trymaneuver
+membership is  [4.088888888888889, True, '1']
+1
+GET,0,3.91111111111,(3.635841131210327, -23.075267791748047, 1.4877464771270752),12,1,3.91111111111,0,left
+sending GET,0,3.91111111111,(3.635841131210327, -23.075267791748047, 1.4877464771270752),12,1,3.91111111111,0,left to car 1 by car 0
+True
+received GRANT,1,4.22222222222,(-2.725320339202881, 10.685164451599121, 4.776328086853027),6,1,0,0 by car 0sent from  car1
+status: 2
+membership is  [4.088888888888889, True, '1']
+in request processing, exisiting membership =  set(['1'])
+in request processing, new membership =  [4.088888888888889, True, '1']
+in request processing, new R =  set(['1'])
+0
+last
+stopped retry timer
+added car with id 0 to grantlist. current grantlist:  {0: [7.844444444444445, 'left']}
+Doing maneuver
+diff 0.112524986267
+udp thread: binding to ('127.0.0.1', 9001)
+True
+received GET,0,3.91111111111,(3.635841131210327, -23.075267791748047, 1.4877464771270752),12,1,3.91111111111,0,left by car 1sent from  car0
+status: 1
+in no conflict
+sender travel direction is:  north
+sender earliest entering time is:  2.11428985742
+sender last entering time is:  2.11428985742
+sender last leaving time is:  4.77054891128
+my entering time is:  0.173827160494
+my leaving time is:  2.03188923918
+i have left the intersection:  False
+not conflicted because sender enters after i leave
+no conflict True
+not conlicted
+added car with id 0 to grantlist. current grantlist:  {0: [6.688888888888889, 'left']}
+GRANT,1,4.22222222222,(-2.725320339202881, 10.685164451599121, 4.776328086853027),6,1,0,0
+sending GRANT,1,4.22222222222,(-2.725320339202881, 10.685164451599121, 4.776328086853027),6,1,0,0 to car 0 by car 1
+removed car with id 0 from grantlist. currentgrantlist: {}
+removed car with id 0 from grantlist. currentgrantlist: {}
+done
+... logging to /home/lu/.ros/log/4964afd6-f258-11e8-874a-000c291801fc/roslaunch-ubuntu-3958.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/lu/catkin_ws/src/virtual_blinker/sim.launch
+[1mstarted roslaunch server http://ubuntu:39423/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /enable_negotiator: True
+ * /file_prefix: 
+ * /nr_cars: 2
+ * /plot: False
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+ * /save: False
+
+NODES
+  /
+    car0 (virtual_blinker/sim.py)
+    car1 (virtual_blinker/sim.py)
+    cloud (virtual_blinker/cloud.py)
+    rviz (rviz/rviz)
+    visualization (virtual_blinker/visualization.py)
+
+auto-starting new master
+[1mprocess[master]: started with pid [3978][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/lu/catkin_ws/src/virtual_blinker/sim.launch http://localhost:11311
+[1msetting /run_id to 4964afd6-f258-11e8-874a-000c291801fc[0m
+[1mprocess[rosout-1]: started with pid [3991][0m
+started core service [/rosout]
+[1mprocess[visualization-2]: started with pid [3994][0m
+[1mprocess[rviz-3]: started with pid [3995][0m
+[1mprocess[car0-4]: started with pid [3996][0m
+[1mprocess[car1-5]: started with pid [3997][0m
+[1mprocess[cloud-6]: started with pid [3998][0m
+[cloud-6] killing on exit
+[car1-5] killing on exit
+[car0-4] killing on exit
+[rviz-3] killing on exit
+[visualization-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+diff 1.20018410683
+udp thread: binding to ('127.0.0.1', 9000)
+initiating trymaneuver
+membership is  [4.666666666666667, True, '1']
+1
+GET,0,4.71111111111,(3.980382204055786, -20.0837459564209, 1.7950114011764526),10,1,4.71111111111,0,left
+sending GET,0,4.71111111111,(3.980382204055786, -20.0837459564209, 1.7950114011764526),10,1,4.71111111111,0,left to car 1 by car 0
+True
+received GRANT,1,4.75555555556,(-2.8686256408691406, 1.0920261144638062, 4.649446487426758),14,1,0,0 by car 0sent from  car1
+status: 2
+membership is  [4.7555555555555555, True, '1']
+in request processing, exisiting membership =  set(['1'])
+in request processing, new membership =  [4.7555555555555555, True, '1']
+in request processing, new R =  set(['1'])
+0
+last
+stopped retry timer
+added car with id 0 to grantlist. current grantlist:  {0: [9.266666666666666, 'left']}
+Doing maneuver
+diff 1.25781202316
+udp thread: binding to ('127.0.0.1', 9001)
+True
+received GET,0,4.71111111111,(3.980382204055786, -20.0837459564209, 1.7950114011764526),10,1,4.71111111111,0,left by car 1sent from  car0
+status: 1
+in no conflict
+sender travel direction is:  north
+sender earliest entering time is:  1.90368848162
+sender last entering time is:  1.90368848162
+sender last leaving time is:  4.31379060413
+my entering time is:  0.209382716049
+my leaving time is:  0.664834863745
+i have left the intersection:  False
+not conflicted because sender enters after i leave
+no conflict True
+not conlicted
+added car with id 0 to grantlist. current grantlist:  {0: [9.533333333333333, 'left']}
+GRANT,1,4.75555555556,(-2.8686256408691406, 1.0920261144638062, 4.649446487426758),14,1,0,0
+sending GRANT,1,4.75555555556,(-2.8686256408691406, 1.0920261144638062, 4.649446487426758),14,1,0,0 to car 0 by car 1
+Stops!
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+removed car with id 0 from grantlist. currentgrantlist: {}
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+************normalize weight**********************
+removed car with id 0 from grantlist. currentgrantlist: {}
+done
+... logging to /home/lu/.ros/log/8611ceaa-f258-11e8-874a-000c291801fc/roslaunch-ubuntu-4750.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/lu/catkin_ws/src/virtual_blinker/sim.launch
+[1mstarted roslaunch server http://ubuntu:38899/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /enable_negotiator: True
+ * /file_prefix: 
+ * /nr_cars: 2
+ * /plot: False
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+ * /save: False
+
+NODES
+  /
+    car0 (virtual_blinker/sim.py)
+    car1 (virtual_blinker/sim.py)
+    cloud (virtual_blinker/cloud.py)
+    rviz (rviz/rviz)
+    visualization (virtual_blinker/visualization.py)
+
+auto-starting new master
+[1mprocess[master]: started with pid [4760][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/lu/catkin_ws/src/virtual_blinker/sim.launch http://localhost:11311
+[1msetting /run_id to 8611ceaa-f258-11e8-874a-000c291801fc[0m
+[1mprocess[rosout-1]: started with pid [4775][0m
+started core service [/rosout]
+[1mprocess[visualization-2]: started with pid [4783][0m
+[1mprocess[rviz-3]: started with pid [4784][0m
+[1mprocess[car0-4]: started with pid [4792][0m
+[1mprocess[car1-5]: started with pid [4801][0m
+[1mprocess[cloud-6]: started with pid [4802][0m
+[cloud-6] killing on exit
+[car1-5] killing on exit
+[car0-4] killing on exit
+[rviz-3] killing on exit
+[visualization-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
