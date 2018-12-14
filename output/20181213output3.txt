@@ -98,6 +98,8 @@ targetspeed < self.speed:xxxxxxxxx
 (self.id == 1):
 leave the update function 
 in spin function, finish the n times spin:4
+
+
 xxx before update is x: -3.03672194481
 y: 32.6328086853
 theta: 4.78564500809
@@ -117,6 +119,8 @@ targetspeed < self.speed:xxxxxxxxx
 (self.id == 1):
 leave the update function 
 in spin function, finish the n times spin:5
+
+
 xxx before update is x: -2.85244727135
 y: 32.4019355774
 theta: 4.61995315552
@@ -143,6 +147,8 @@ sim.py in the sim.py update function
 targetspeed < self.speed:xxxxxxxxx
 leave the update function 
 in spin function, finish the n times spin:1
+
+
 sim.py in the sim.py statecallback function, msg is
 
 x: -3.23351192474
@@ -189,6 +195,8 @@ sim.py in the sim.py update function
 targetspeed < self.speed:xxxxxxxxx
 leave the update function 
 in spin function, finish the n times spin:2
+
+
 sim.py in the sim.py statecallback function, msg is
 
 x: -3.60326552391
@@ -208,6 +216,8 @@ sim.py in the sim.py update function
 targetspeed < self.speed:xxxxxxxxx
 leave the update function 
 in spin function, finish the n times spin:3
+
+
 xxx before update is x: 1
 y: 1
 theta: 1
@@ -226,6 +236,7 @@ sim.py in the sim.py update function
 targetspeed < self.speed:xxxxxxxxx
 leave the update function 
 in spin function, finish the n times spin:4
+
 xxx before update is x: 3.40751957893
 y: -32.96352005
 theta: 1.49048185349
@@ -1083,7 +1094,16 @@ speed: 13.7268590927
 id: 1
 t: 19
 current clock is 0.844444444444
+
+
+
+
 maneuver_negotiatir.py message_processing, it's a long code, start...
+
+
+
+
+
 self.ros_measurements is None
 self.ros_measurements is not empty
 x: -3.32610678673
