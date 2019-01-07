@@ -2981,8 +2981,21 @@ current clock is .t / rate/slowdown
 maneuver_negotiatir.py message_processing, curtime-t <= self.TD) .True
 maneuver_negotiatir.py message_processing, self.communication_details != 1
 maneuver_negotiatir.py message_processing,message type is DENY, meaasge dict is {'TagTime': '13', 'Sender': '1', 'TagID': '1', 'Time': '2.53333333333', 'Position': ['(-3.679760217666626', ' 1.3988884687423706', ' 4.720367908477783)'], 'Type': 'DENY'}
+
+
+
+
+
+
+
 car 0 received DENY,1,2.53333333333,(-3.679760217666626, 1.3988884687423706, 4.720367908477783),13,1,0,0 from  car1
 status: 2
+
+
+
+
+
+
 maneuver_negotiatir.py get membership, in the get_MR function, start
 maneuver_negotiatir.py intended_course
 left
@@ -2990,6 +3003,7 @@ membership is [2.533333333333333, True, ['1']]
 2.53333333333
 True
 1
+
 maneuver_negotiatir.py get membership, in the get_MR function, finish
 maneuver_negotiatir.py message_processing,in request processing, exisiting membership = set(['1']) 
 maneuver_negotiatir.py message_processing,in request processing, new membership =  [2.533333333333333, Trueatir.py this is get posotion function, it's important for me to read other car's location
@@ -2999,6 +3013,7 @@ maneuver_negotiatir.py in the try maneuver function update -. strat
 aaaaaa
 aaaaaabbbbb
 risk is [0.45652012054505514, 0]
+
 222 self.state_dicts[msg.id][msg.t] is (2.8959851264953613, -9.88018798828125, 1.5299452543258667, 4.631284713745117)
 if we have all measurements for a certain time-stamp perform risk estimation
 self.fm:False
@@ -3038,6 +3053,11 @@ id: 1
 t: 57
 current clock is .t / rate/slowdown
 2.53333333333
+
+
+
+
+
 maneuver_negotiatir.py message_processing, it's a long code, start...
 maneuver_negotiatir.py in the clock function
 maneuver_negotiatir.py in the clock function  the ros_measurements has x, y, theta, speed, id and t
@@ -3052,8 +3072,15 @@ current clock is .t / rate/slowdown
 maneuver_negotiatir.py message_processing, curtime-t <= self.TD) .True
 maneuver_negotiatir.py message_processing, self.communication_details != 1
 maneuver_negotiatir.py message_processing,message type is GET, meaasge dict is {'Acc': '1', 'TagTime': '1.15555555556', 'Sender': '0', 'Time': '2.53333333333', 'IntendedCourse': 'left', 'Position': ['3.5499331951141357', ' -9.036622047424316', ' 1.4647998809814453'], 'TagID': '0', 'Type': 'GET', 'Velocity': '4'}
+
+
+
 car 1 received GET,0,2.53333333333,(3.5499331951141357, -9.036622047424316, 1.4647998809814453),4,1,1.15555555556,0,left from  car0
 status: 1
+
+
+
+
 maneuver_negotiatir.py message_processing, (m_dict[Type] == GET)
 maneuver_negotiatir.py in no conflict funtion , start
 current time is  0.112592592592
@@ -3401,7 +3428,21 @@ maneuver_negotiatir.py in the lat function
 1
 maneuver_negotiatir.py the R response set is not empty, so return 0, why 0, is that car 0
 !!!!change state to get
+
+
+
+
+
+
+
+
 GET,0,2.88888888889,(3.7986955642700195, -7.722427845001221, 1.4350757598876953),2,1,1.15555555556,0,left
+
+
+
+
+
+
 maneuver_negotiatir.py start the update_agent_message
 maneuver_negotiatir.py in the clock function
 maneuver_negotiatir.py in the clock function  the ros_measurements has x, y, theta, speed, id and t
@@ -3489,7 +3530,22 @@ current clock is .t / rate/slowdown
 maneuver_negotiatir.py message_processing, curtime-t <= self.TD) .True
 maneuver_negotiatir.py message_processing, self.communication_details != 1
 maneuver_negotiatir.py message_processing,message type is GET, meaasge dict is {'Acc': '1', 'TagTime': '1.15555555556', 'Sender': '0', 'Time': '2.88888888889', 'IntendedCourse': 'left', 'Position': ['3.7986955642700195', ' -7.722427845001221', ' 1.4350757598876953'], 'TagID': '0', 'Type': 'GET', 'Velocity': '2'}
+
+
+
+
+
+
+
 car 1 received GET,0,2.88888888889,(3.7986955642700195, -7.722427845001221, 1.4350757598876953),2,1,1.15555555556,0,left from  car0
+
+
+
+
+
+
+
+
 status: 1
 maneuver_negotiatir.py message_processing, (m_dict[Type] == GET)
 maneuver_negotiatir.py in no conflict funtion , start
@@ -3500,6 +3556,12 @@ maneuver_negotiatir.py message_processing, no conflict
 maneuver_negotiatir.py message_processing, not conlicted
 maneuver_negotiatir.py message_processing,!!dd342 change status to GRANT
 self.grantID is 0
+
+
+
+
+
+
 GRANT,1,2.88888888889,(-3.001220941543579, -3.4683475494384766, 4.576859474182129),13,1,0,0
 aaaaaa
 aaaaaabbbbb
@@ -3545,8 +3607,18 @@ targetspeed < self.speed:xxxxxxxxx
 (self.id == 1):
 leave the update function 
 in spin function, finish the n times spi9', ' -3.4683475494384766', ' 4.576859474182129)'], 'Type': 'GRANT'}
+
+
+
+
+
 car 0 received GRANT,1,2.88888888889,(-3.001220941543579, -3.4683475494384766, 4.576859474182129),13,1,0,0 from  car1
 status: 2
+
+
+
+
+
 maneuver_negotiatir.py get membership, in the get_MR function, start
 maneuver_negotiatir.py intended_course
 left
